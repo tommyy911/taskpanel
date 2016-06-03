@@ -1,0 +1,21 @@
+{
+  "name": "server_side",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "tommyy",
+  "license": "ISC",
+  "devDependencies": {
+    "bcrypt": "^0.8.6",
+    "body-parser": "^1.15.1",
+    "mongoose": "^4.4.19"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "express": "^4.13.4"
+  }
+}
